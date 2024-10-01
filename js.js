@@ -2,7 +2,7 @@
 
 const xmlURL = 'sistemap.xml'
 
-function buscarxml() {
+function buscarxml() { 
 
     fetch(xmlURL)
     .then(response => response.text())
